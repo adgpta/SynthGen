@@ -1,5 +1,8 @@
 
 # Generate synthetic / augmented data using [SDV](https://github.com/sdv-dev/SDV) package
+
+This repository is a part of generating synthetic data for [NuCLear](https://github.com/adgpta/NuCLear). Please refer to the original repository for more information.
+
 To increase the number of nuclei for training and include possible variations, synthetic datasets were created from nuclei features using the [synthetic data vault (SDV)](https://github.com/sdv-dev/SDV) package (Patki, Wedge et al. 2016), which utilizes correlations between features of the original dataset as well as mean, minimum or maximum values and standard deviations. CSV files containing pre-generated synthetic data from the provided ground truths are available in the (folder). To create your own, _**select only the radiomics features columns to be used for creating the synthetic datasets**_ and remove all non-essential columns from the csv files extracted via Pyradiomics. To create synthetic data follow the instructions below to run the python script:
 
 
